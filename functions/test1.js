@@ -1,4 +1,4 @@
-// 1This function is the endpoint's request handler.
+// This function is the endpoint's request handler.
 exports = function({ query, headers, body}, response) {
     // Data can be extracted from the request as follows:
 
@@ -12,7 +12,7 @@ exports = function({ query, headers, body}, response) {
     // This is a binary object that can be accessed as a string using .text()
     const reqBody = body;
 
-    console.log("arg1, arg2，1，2: ", arg1, arg2);
+    console.log("arg1, arg2，1: ", arg1, arg2);
     console.log("Content-Type:", JSON.stringify(contentTypes));
     console.log("Request body:", reqBody);
 
