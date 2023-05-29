@@ -54,5 +54,33 @@
     "sql_file": "sql/GET-v1-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/v2/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v2/data",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "value_type": "",
+        "value_map": null,
+        "required": 0,
+        "default": "IssueCommentEvent",
+        "description": "",
+        "pattern": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v1-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
