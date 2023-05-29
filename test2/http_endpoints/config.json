@@ -48,8 +48,8 @@
       }
     ],
     "settings": {
-      "timeout": 0,
-      "row_limit": 0
+      "timeout": 5000,
+      "row_limit": 50
     },
     "sql_file": "sql/GET-v1-data_dump_bverbo.sql",
     "type": "sql_endpoint",
