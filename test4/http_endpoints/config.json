@@ -15,5 +15,39 @@
     "sql_file": "sql/GET-helloworld.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/v2/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v2/data",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v2-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/v3/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v3/data",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v3-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
