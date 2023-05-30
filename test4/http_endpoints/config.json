@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "/helloworld",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/helloworld",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-helloworld.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
