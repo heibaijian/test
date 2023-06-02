@@ -7,7 +7,14 @@
     "data_source": {
       "cluster_id": 3299042
     },
-    "params": [],
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
