@@ -1,9 +1,9 @@
 [
   {
-    "name": "/try1",
+    "name": "untitled endpoint",
     "description": "",
     "method": "GET",
-    "endpoint": "/try",
+    "endpoint": "/helloworld",
     "data_source": {
       "cluster_id": 3299042
     },
@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-try.sql",
+    "sql_file": "sql/GET-helloworld.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -34,10 +34,10 @@
     "return_type": "json"
   },
   {
-    "name": "untitled endpoint",
+    "name": "/try1",
     "description": "",
     "method": "GET",
-    "endpoint": "/helloworld",
+    "endpoint": "/try",
     "data_source": {
       "cluster_id": 3299042
     },
@@ -46,7 +46,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-helloworld.sql",
+    "sql_file": "sql/GET-try.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
