@@ -12,8 +12,6 @@
       "timeout": 10000,
       "row_limit": 50
     },
-    "tag": "",
-    "batch": false,
     "sql_file": "sql/GET-github_events.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -31,8 +29,6 @@
       "timeout": 10000,
       "row_limit": 50
     },
-    "tag": "",
-    "batch": false,
     "sql_file": "sql/GET-github_events_copy_dump_EJhiTX.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -45,13 +41,18 @@
     "data_source": {
       "cluster_id": 3299042
     },
-    "params": [],
+    "params": [
+      {
+        "name": "n",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
     "settings": {
       "timeout": 10000,
       "row_limit": 50
     },
-    "tag": "Default",
-    "batch": false,
     "sql_file": "sql/GET-imdb_movie_ratings_copy_dump_rPkEYP.sql",
     "type": "sql_endpoint",
     "return_type": "json"
