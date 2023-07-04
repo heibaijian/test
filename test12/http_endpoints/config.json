@@ -56,5 +56,29 @@
     "sql_file": "sql/GET-imdb_movie_ratings_copy_dump_rPkEYP.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
