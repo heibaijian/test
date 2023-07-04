@@ -17,6 +17,71 @@
     "return_type": "json"
   },
   {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_events",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/github_events_copy",
     "description": "",
     "method": "GET",
@@ -30,6 +95,71 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-github_events_copy_dump_EJhiTX.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_events_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/github_events_copy_dump_EJhiTX",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-github_events_copy_dump_EJhiTX.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-student2s.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -78,6 +208,150 @@
       "row_limit": 1
     },
     "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/imdb_movie_ratings_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/imdb_movie_ratings_copy_dump_rPkEYP",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "n",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-imdb_movie_ratings_copy_dump_rPkEYP.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 10000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-student2s.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
