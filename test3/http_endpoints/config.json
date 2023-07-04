@@ -1,25 +1,18 @@
 [
   {
-    "name": "/v1/data",
+    "name": "/v1/data/test",
     "description": "",
     "method": "GET",
-    "endpoint": "/v1/data",
+    "endpoint": "/v1/data/test",
     "data_source": {
       "cluster_id": 3299042
     },
-    "params": [
-      {
-        "name": "type",
-        "type": "string",
-        "required": 0,
-        "default": "IssueCommentEvent"
-      }
-    ],
+    "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-v1-data.sql",
+    "sql_file": "sql/GET-v1-data-test.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -44,6 +37,30 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-v1-data_dump_bverbo.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/v1/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v1/data",
+    "data_source": {
+      "cluster_id": 3299042
+    },
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "required": 0,
+        "default": "IssueCommentEvent"
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v1-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
