@@ -32,5 +32,22 @@
     "sql_file": "sql/GET-he1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/he2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/he2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-he2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
