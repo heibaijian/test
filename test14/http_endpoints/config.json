@@ -1,0 +1,19 @@
+[
+  {
+    "name": "/he",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/he",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-he.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
