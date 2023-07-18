@@ -1,0 +1,40 @@
+[
+  {
+    "name": "/t",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/t",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-t.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/api/v1/getinfo",
+    "description": "\u003c\u003e",
+    "method": "GET",
+    "endpoint": "/v1/cccccccccccccccccccccc",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-v1-cccccccccccccccccccccc.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
