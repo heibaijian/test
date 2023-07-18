@@ -1,9 +1,9 @@
 [
   {
-    "name": "/he",
+    "name": "/he2",
     "description": "",
-    "method": "GET",
-    "endpoint": "/he",
+    "method": "PUT",
+    "endpoint": "/he2",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -14,7 +14,7 @@
     },
     "tag": "Default",
     "batch": false,
-    "sql_file": "sql/GET-he.sql",
+    "sql_file": "sql/PUT-he2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -34,6 +34,25 @@
     "tag": "Default",
     "batch": false,
     "sql_file": "sql/GET-he1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/he",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/he",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-he.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
