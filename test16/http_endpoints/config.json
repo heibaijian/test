@@ -31,6 +31,8 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "Default",
+    "batch": false,
     "sql_file": "sql/GET-he1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
