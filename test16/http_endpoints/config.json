@@ -91,5 +91,23 @@
     "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/he2_copy2",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/he2_dump_ElNTEE2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "batch_operation": true,
+    "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
