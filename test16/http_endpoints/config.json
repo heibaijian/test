@@ -1,9 +1,9 @@
 [
   {
-    "name": "/he2",
+    "name": "/he",
     "description": "",
-    "method": "PUT",
-    "endpoint": "/he2",
+    "method": "GET",
+    "endpoint": "/he",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -13,8 +13,8 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch": false,
-    "sql_file": "sql/PUT-he2.sql",
+    "batch_operation": false,
+    "sql_file": "sql/GET-he.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -31,17 +31,17 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "tag": "Default",
-    "batch": false,
+    "tag": "",
+    "batch_operation": false,
     "sql_file": "sql/GET-he1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/he",
+    "name": "/he2",
     "description": "",
-    "method": "GET",
-    "endpoint": "/he",
+    "method": "PUT",
+    "endpoint": "/he2",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -51,8 +51,27 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch": false,
-    "sql_file": "sql/GET-he.sql",
+    "batch_operation": false,
+    "sql_file": "sql/PUT-he2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/he2_copy",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/he2_dump_ElNTEE",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
