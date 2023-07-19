@@ -70,7 +70,7 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch_operation": false,
+    "batch_operation": true,
     "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
     "type": "sql_endpoint",
     "return_type": "json"
