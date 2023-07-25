@@ -70,7 +70,7 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch_operation": true,
+    "batch_operation": false,
     "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -88,7 +88,9 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
+    "tag": "",
+    "batch_operation": false,
+    "sql_file": "sql/PUT-he2_dump_ElNTEE1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -105,8 +107,35 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "",
     "batch_operation": true,
-    "sql_file": "sql/PUT-he2_dump_ElNTEE.sql",
+    "sql_file": "sql/PUT-he2_dump_ElNTEE2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2_copy",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2_dump_jDmuZI",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/POST-student2_dump_jDmuZI.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
