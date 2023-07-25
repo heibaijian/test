@@ -45,7 +45,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "tag": "Default321",
+    "tag": "Default321222",
     "batch_operation": false,
     "sql_file": "sql/POST-student2s.sql",
     "type": "sql_endpoint",
