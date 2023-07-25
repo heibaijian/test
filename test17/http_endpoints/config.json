@@ -19,7 +19,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "tag": "Default",
+    "tag": "Defaul11t",
     "batch_operation": true,
     "sql_file": "sql/GET-student2_dump_gWICGN.sql",
     "type": "sql_endpoint",
