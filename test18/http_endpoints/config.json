@@ -3,7 +3,7 @@
     "name": "-github_eventss1",
     "description": "",
     "method": "POST",
-    "endpoint": "/github_eventss",
+    "endpoint": "/github_eventss1",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
