@@ -2,7 +2,7 @@
   {
     "name": "-student2_copy",
     "description": "",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/student2_dump_gWICGN",
     "data_source": {
       "cluster_id": 1373933076661897265
