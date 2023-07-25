@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "name": "-student2_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/student2_dump_gWICGN",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/GET-student2_dump_gWICGN.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
