@@ -205,7 +205,9 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/POST-github_eventss.sql",
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-github_eventss1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -224,7 +226,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-github_events.sql",
+    "sql_file": "sql/GET-github_events1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
