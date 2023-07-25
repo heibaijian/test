@@ -1,6 +1,6 @@
 [
   {
-    "name": "/student2",
+    "name": "",
     "description": "",
     "method": "PUT",
     "endpoint": "/student2",
@@ -32,37 +32,7 @@
     "return_type": "json"
   },
   {
-    "name": "/student22",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/student22",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "sql_file": "sql/PUT-student2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-student2",
+    "name": "",
     "description": "",
     "method": "POST",
     "endpoint": "/student2",
@@ -88,7 +58,7 @@
     "return_type": "json"
   },
   {
-    "name": "-student2_copy",
+    "name": "",
     "description": "",
     "method": "GET",
     "endpoint": "/student2_dump_aIGNxv",
@@ -114,14 +84,20 @@
     "return_type": "json"
   },
   {
-    "name": "-student2",
+    "name": "",
     "description": "",
-    "method": "DELETE",
-    "endpoint": "/student2",
+    "method": "PUT",
+    "endpoint": "/student22",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
     "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
       {
         "name": "id",
         "type": "number",
@@ -133,9 +109,9 @@
       "timeout": 5000,
       "row_limit": 1
     },
-    "tag": "Default",
+    "tag": "",
     "batch_operation": 0,
-    "sql_file": "sql/DELETE-student2.sql",
+    "sql_file": "sql/PUT-student22.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
