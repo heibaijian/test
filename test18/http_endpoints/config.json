@@ -668,7 +668,7 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch_operation": 0,
+    "batch_operation": 1,
     "sql_file": "sql/POST-github_eventss.sql",
     "type": "sql_endpoint",
     "return_type": "json"
