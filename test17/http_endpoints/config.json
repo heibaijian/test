@@ -1,6 +1,6 @@
 [
   {
-    "name": "-student2",
+    "name": "",
     "description": "",
     "method": "POST",
     "endpoint": "/student2",
@@ -26,7 +26,7 @@
     "return_type": "json"
   },
   {
-    "name": "-student2",
+    "name": "",
     "description": "",
     "method": "GET",
     "endpoint": "/student2",
@@ -48,32 +48,6 @@
     "tag": "Default",
     "batch_operation": false,
     "sql_file": "sql/GET-student2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-student2_copy",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/student2_dump_WRWPFf",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": false,
-    "sql_file": "sql/POST-student2_dump_WRWPFf.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
