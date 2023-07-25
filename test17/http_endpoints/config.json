@@ -9,15 +9,15 @@
     },
     "params": [
       {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      },
-      {
         "name": "name",
         "type": "string",
         "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
         "default": ""
       }
     ],
@@ -25,7 +25,7 @@
       "timeout": 5000,
       "row_limit": 1
     },
-    "tag": "Default",
+    "tag": "Default12",
     "batch_operation": false,
     "sql_file": "sql/PUT-student2.sql",
     "type": "sql_endpoint",
