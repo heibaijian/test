@@ -1,9 +1,67 @@
 [
   {
-    "name": "/t",
+    "name": "-student2s_copy_copy",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s_dump_cTgmWW_dump_HeXkUO",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "200000"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/POST-student2s_dump_cTgmWW_dump_HeXkUO.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2s_copy",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s_dump_cTgmWW",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "100001"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "200000"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/POST-student2s_dump_cTgmWW.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2_copy",
     "description": "",
     "method": "GET",
-    "endpoint": "/t",
+    "endpoint": "/student2_dump_InPfpj",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -13,16 +71,210 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch": false,
-    "sql_file": "sql/GET-t.sql",
+    "batch_operation": false,
+    "sql_file": "sql/GET-student2_dump_InPfpj.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/api/v1/getinfo",
-    "description": "\u003c\u003e",
+    "name": "-student2",
+    "description": "",
     "method": "GET",
-    "endpoint": "/v1/cccccccccccccccccccccc",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/GET-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/PUT-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/DELETE-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "200000"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/POST-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2s",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/PUT-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2s",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/DELETE-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "untitled endpoint",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/d",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -32,25 +284,8 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch": false,
-    "sql_file": "sql/GET-v1-cccccccccccccccccccccc.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/api/v1/getinfo1",
-    "description": "\u003c\u003e",
-    "method": "GET",
-    "endpoint": "/v1/c",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-v1-c.sql",
+    "batch_operation": false,
+    "sql_file": "sql/GET-d.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
