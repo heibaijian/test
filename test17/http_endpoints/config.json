@@ -20,7 +20,7 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch_operation": false,
+    "batch_operation": true,
     "sql_file": "sql/GET-student2_dump_gWICGN.sql",
     "type": "sql_endpoint",
     "return_type": "json"
