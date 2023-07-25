@@ -1,6 +1,6 @@
 [
   {
-    "name": "",
+    "name": "/student2",
     "description": "",
     "method": "PUT",
     "endpoint": "/student2",
