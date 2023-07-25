@@ -186,7 +186,7 @@
       "row_limit": 50
     },
     "tag": "Default",
-    "batch_operation": true,
+    "batch_operation": false,
     "sql_file": "sql/POST-student2s_dump_LNUCFN.sql",
     "type": "sql_endpoint",
     "return_type": "json"
