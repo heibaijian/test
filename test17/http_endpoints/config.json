@@ -20,7 +20,7 @@
       "row_limit": 1
     },
     "tag": "Default",
-    "batch_operation": false,
+    "batch_operation": true,
     "sql_file": "sql/POST-student2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
