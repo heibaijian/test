@@ -1,5 +1,37 @@
 [
   {
+    "name": "/student223",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student223",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-student22.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/student22",
     "description": "",
     "method": "PUT",
