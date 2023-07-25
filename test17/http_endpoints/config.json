@@ -25,8 +25,8 @@
       "timeout": 5000,
       "row_limit": 1
     },
-    "tag": "Default12",
-    "batch_operation": false,
+    "tag": "Default12333",
+    "batch_operation": true,
     "sql_file": "sql/PUT-student2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
