@@ -1,6 +1,6 @@
 [
   {
-    "name": "",
+    "name": "/student2",
     "description": "",
     "method": "PUT",
     "endpoint": "/student2",
@@ -32,7 +32,7 @@
     "return_type": "json"
   },
   {
-    "name": "",
+    "name": "-student2",
     "description": "",
     "method": "POST",
     "endpoint": "/student2",
@@ -58,7 +58,7 @@
     "return_type": "json"
   },
   {
-    "name": "",
+    "name": "-student2_copy",
     "description": "",
     "method": "GET",
     "endpoint": "/student2_dump_aIGNxv",
@@ -80,6 +80,32 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/GET-student2_dump_aIGNxv.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-student2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
