@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": false,
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
