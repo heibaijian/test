@@ -1,0 +1,49 @@
+[
+  {
+    "name": "/v3/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v3/data",
+    "data_source": {
+      "cluster_id": 1379661944643674087
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v3-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "untitled endpoint",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/v4/data",
+    "data_source": {
+      "cluster_id": 1379661944643674087
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-v4-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
