@@ -138,5 +138,31 @@
     "sql_file": "sql/POST-student2_dump_jDmuZI.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "-student2s",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2s",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": true,
+    "sql_file": "sql/POST-student2s.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
