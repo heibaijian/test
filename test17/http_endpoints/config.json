@@ -1,93 +1,9 @@
 [
   {
-    "name": "/student2",
+    "name": "/student23341",
     "description": "",
     "method": "PUT",
-    "endpoint": "/student2",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-student2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-student2",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/student2",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-student2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-student2_copy",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/student2_dump_aIGNxv",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-student2_dump_aIGNxv.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/student22",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/student22",
+    "endpoint": "/student23341",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -110,98 +26,8 @@
       "row_limit": 1
     },
     "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-student22.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/student223",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/student223",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-student223.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/student2234",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/student2234",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-student2234.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-student2",
-    "description": "",
-    "method": "DELETE",
-    "endpoint": "/student2",
-    "data_source": {
-      "cluster_id": 1373933076661897265
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/DELETE-student2.sql",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-student23341.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -270,10 +96,36 @@
     "return_type": "json"
   },
   {
-    "name": "/student23341",
+    "name": "-student2",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2234",
     "description": "",
     "method": "PUT",
-    "endpoint": "/student23341",
+    "endpoint": "/student2234",
     "data_source": {
       "cluster_id": 1373933076661897265
     },
@@ -297,7 +149,155 @@
     },
     "tag": "",
     "batch_operation": 0,
-    "sql_file": "sql/PUT-student23341.sql",
+    "sql_file": "sql/PUT-student2234.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student223",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student223",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-student223.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student22",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student22",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-student22.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/student2_dump_aIGNxv",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-student2_dump_aIGNxv.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-student2",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student2",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student2",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-student2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
