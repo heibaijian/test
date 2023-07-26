@@ -1,5 +1,67 @@
 [
   {
+    "name": "/student2334",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student2334",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "sql_file": "sql/PUT-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/student233",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/student233",
+    "data_source": {
+      "cluster_id": 1373933076661897265
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-student2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/student2",
     "description": "",
     "method": "PUT",
