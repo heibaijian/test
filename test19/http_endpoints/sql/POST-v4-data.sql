@@ -4,5 +4,5 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 use sample_data;
-
 INSERT INTO `student5` VALUES(${id},${name});
+select * from student5 limit 1;
