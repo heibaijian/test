@@ -1,2 +1,2 @@
 USE sample_data;
-DELETE FROM `github_events` WHERE 1=0 ;
+DELETE FROM `github_events` WHERE 1=0 limit 1;
