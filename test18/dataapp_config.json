@@ -1,5 +1,7 @@
 {
   "app_id": "dataapp-MwCGTjNu",
   "app_name": "age-github",
-  "app_type": "dataapi"
+  "app_type": "dataapp",
+  "description": "",
+  "app_version": "1.0.0"
 }
