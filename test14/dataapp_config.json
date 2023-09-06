@@ -1,5 +1,7 @@
 {
   "app_id": "dataapi-rtOHEegg",
   "app_name": "lvhongmeng",
-  "app_type": "dataapi"
+  "app_type": "dataapp",
+  "description": "",
+  "app_version": "1.0.0"
 }

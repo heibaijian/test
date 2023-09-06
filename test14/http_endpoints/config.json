@@ -10,8 +10,13 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-he.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -27,8 +32,13 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-he1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -44,8 +54,13 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-he2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -61,8 +76,13 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-he3.sql",
     "type": "sql_endpoint",
     "return_type": "json"
