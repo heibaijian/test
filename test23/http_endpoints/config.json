@@ -1,5 +1,27 @@
 [
   {
+    "name": "/3",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/3",
+    "data_source": {
+      "cluster_id": 1379661944646374582
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-3.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "student2",
     "description": "",
     "method": "GET",
@@ -55,7 +77,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-student2.sql",
+    "sql_file": "sql/GET-student3.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
