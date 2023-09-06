@@ -30,7 +30,7 @@
     "return_type": "json"
   },
   {
-    "name": "student3",
+    "name": "student4",
     "description": "",
     "method": "GET",
     "endpoint": "/student3",
