@@ -48,7 +48,7 @@
     ],
     "settings": {
       "timeout": 0,
-      "row_limit": 1000,
+      "row_limit": 0,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 1
