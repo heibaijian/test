@@ -58,5 +58,35 @@
     "sql_file": "sql/GET-id-6.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/untitled_endpoint",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/d",
+    "data_source": {
+      "cluster_id": 10302487919882805295
+    },
+    "params": [
+      {
+        "name": "company",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 1,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-d.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
